@@ -1,0 +1,53 @@
+# Created at 2025-09-13T14:37:08.273
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+# Created at 2025-09-13T14:37:08.492
+Unexpected IOException with stream: User1 connection closed: Invalid status code received: 500 Status line: HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2025-09-13T14:37:08.493
+Unexpected IOException: 8,1,api.post.WebSocket.ChatWithDifferentTest,userMessagingTest(api.post.WebSocket.ChatWithDifferentTest),null,null,null,null,ChatWithDifferentTest.userMessagingTest:137 \00BB WebsocketNotConnected,org.java_websocket.exceptions.WebsocketNotConnectedException\000A\0009at api.post.WebSocket.ChatWithDifferentTest.userMessagingTest(ChatWithDifferentTest.java:137)\000A
+
+
+# Created at 2025-09-13T14:37:08.494
+Unexpected IOException: 5,1,api.post.WebSocket.ChatWithDifferentTest,userMessagingTest(api.post.WebSocket.ChatWithDifferentTest),api.post.WebSocket.ChatWithDifferentTest,null,null
+
+
+# Created at 2025-09-13T14:37:08.976
+Unexpected IOException with stream: User2 connection closed: Invalid status code received: 500 Status line: HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2025-09-13T14:37:09.511
+Unexpected IOException with stream: User1 connection closed: Invalid status code received: 500 Status line: HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2025-09-13T14:37:09.512
+Unexpected IOException: 8,1,api.post.WebSocket.ChatWithDifferentTest,userMessagingTest(api.post.WebSocket.ChatWithDifferentTest),null,null,null,null,ChatWithDifferentTest.userMessagingTest:137 \00BB WebsocketNotConnected,org.java_websocket.exceptions.WebsocketNotConnectedException\000A\0009at api.post.WebSocket.ChatWithDifferentTest.userMessagingTest(ChatWithDifferentTest.java:137)\000A
+
+
+# Created at 2025-09-13T14:37:09.513
+Unexpected IOException: 5,1,api.post.WebSocket.ChatWithDifferentTest,userMessagingTest(api.post.WebSocket.ChatWithDifferentTest),api.post.WebSocket.ChatWithDifferentTest,null,null
+
+
+# Created at 2025-09-13T14:37:10.005
+Unexpected IOException with stream: User2 connection closed: Invalid status code received: 500 Status line: HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2025-09-13T14:37:10.510
+Unexpected IOException with stream: User1 connection closed: Invalid status code received: 500 Status line: HTTP/1.1 500 Internal Server Error
+
+
+# Created at 2025-09-13T14:37:10.512
+Unexpected IOException: 8,1,api.post.WebSocket.ChatWithDifferentTest,userMessagingTest(api.post.WebSocket.ChatWithDifferentTest),null,null,null,null,ChatWithDifferentTest.userMessagingTest:137 \00BB WebsocketNotConnected,org.java_websocket.exceptions.WebsocketNotConnectedException\000A\0009at api.post.WebSocket.ChatWithDifferentTest.userMessagingTest(ChatWithDifferentTest.java:137)\000A
+
+
+# Created at 2025-09-13T14:37:10.806
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,api.post.WebSocket.ChatWithDifferentTest,null,null,null
+
+
